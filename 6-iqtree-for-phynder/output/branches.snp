@@ -1,0 +1,11 @@
+1 3 var 1 1
+2 3 snp
+! 4 7 phynder 3 1.0 229 /home/liuyunhui/miniconda3/envs/pathPhynder/bin/phynder -B -o /mnt/d/捕获体系/vcf-fasta/aDNA_placement/output/branches.snp /mnt/d/捕获体系/vcf-fasta/cq_1792.phynder.tree /mnt/d/捕获体系/vcf-fasta/cqHan.1792_rename.vcf 19 2025-11-03_21:10:19
+.
+~ D c 2 3 INT 6 STRING          chromosome
+~ D V 2 3 INT 11 STRING_LIST    pos, ref string, alt string
+~ D A 1 4 CHAR                  0 for ref ancestral, 1 for alt ancestral
+~ D B 2 3 INT 4 REAL            best branch assignment, score
+~ D L 1 4 REAL                  log likelihood of the site
+~ D S 2 3 INT 4 REAL            secondary branch assignment, score
+.
